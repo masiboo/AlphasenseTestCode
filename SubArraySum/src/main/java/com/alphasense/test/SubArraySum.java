@@ -12,6 +12,7 @@ public class SubArraySum {
 
     boolean subArraySum(int[] arr, int givenSum){
         int currSum = arr[0];
+        // master add line here
         int start=0;
         int end=0;
         while (end < arr.length)
